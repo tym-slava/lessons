@@ -48,8 +48,8 @@ function removeKeys2(obj, arr) {
 
 function absDiff(numA) {
     return (numB) => {
-        return console.log(Math.abs(numA - numB));
+        return Math.abs(numA - numB);
     }
 }
 
-// absDiff(3)(7);
+absDiff(3)(7);
